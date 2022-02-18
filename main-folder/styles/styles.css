@@ -1,3 +1,127 @@
-.hello{
-    color: blue;
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #181719;
+    margin: auto;
+    padding: auto;
+}
+
+a, a::before, a::after{
+    text-decoration: none;
+    color: white;
+}
+
+/* Navbar stuffs */
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px 20px 0px 20px;
+    align-items: center;
+}
+.button{
+    display: flex;
+    margin-right: auto;
+    font-family: poppins;
+    padding: 9px;
+    border: solid 5px;
+    border-color: white;
+    background-color: #181719;
+    padding: 10px;
+}
+.menu_icon{
+    color: white;
+    font-size: 40px;
+}
+
+/* Main page stuffs */
+.main_content-container{
+    overflow: hidden;
+    margin: 38px 20px 0px 20px;
+}
+
+/* Main Text Stuffs */
+.main_text-container{
+    font-family: poppins;
+    color: white;
+}
+.main_title{
+    font-weight: 500;
+    font-size: 36px;
+}
+.description{
+    font-weight: 400;
+    margin: 25px 0px 25px 0px;
+} 
+.read_more-container{
+    display: flex;
+    margin: 25px 0px 25px 0px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.read_more{
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+/* Picture stuffs */
+.main_picture-container{
+    display: flex;
+    flex-direction: column;
+}
+.main_picture{
+    width: 100%;
+    border-radius: 10px;
+}
+.author_card-container{
+    position: relative;
+    font-family: poppins;
+    color: white;
+    margin-left: 50px;
+    margin-right: 20px;
+    top: -55px;
+    
+}
+.author_card{
+    width: 100%;
+    height: 150px;
+    background-color: #181719;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 20px 0px 0px 20px;
+}
+.author_photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.image_and_text{
+    display: flex;
+}
+.text_only{
+    line-height: 10px;
+}
+.author_name{
+    font-size: 12px;
+    font-weight: 500;
+}
+.author_desc{
+    font-size: 10px;
+    font-weight: 500;
+    color: #828282;
+}
+.designed_in{
+    font-weight: 700;
+    font-size: 18px;
+    margin: 5px 0px 0px 0px;
+}
+.attribution-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    color: white;
+    width: 100%;
+    height: 100%;
 }
